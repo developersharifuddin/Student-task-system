@@ -247,17 +247,15 @@
            
            
 
-                       
-
- <!-- Add  data by modal -->                       
+     <!-- ADD  data by modal -->                       
            <div class="modal fade" id="AddModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content p-4">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Add subject</h5>
+               <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Student + subject</h5>
                     <button type="button" class="btn btn-close text-info" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                 <div class="modal-body">
               
                 
                     <form action="{{route('student.store')}}" method="POST"  enctype="multipart/form-data">
@@ -344,11 +342,11 @@
                     <div class="clearfix"></div>
                   </form>
                 
-                 
-                 </div>
                 </div>
             </div>
            
+                                 
+ 
            
 
  
